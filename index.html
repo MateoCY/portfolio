@@ -388,7 +388,7 @@
   document.getElementById('hero-eyebrow').textContent = PORTFOLIO.title;
   document.getElementById('hero-name').textContent = PORTFOLIO.name;
   document.getElementById('hero-tagline').textContent = PORTFOLIO.tagline;
-  document.getElementById('about-text').textContent = PORTFOLIO.aboutText;
+  document.getElementById('about-text').innerHTML = PORTFOLIO.aboutText;
   document.getElementById('footer-text').textContent = `© ${new Date().getFullYear()} ${PORTFOLIO.name}. All rights reserved.`;
 
   // Profile photo
