@@ -1,4 +1,4 @@
-# Portfolio Template — How to Edit
+# Note: Just update contact.html when you see this next, and upload resume.pdf to assets
 
 ## File Structure
 ```
