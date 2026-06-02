@@ -12,7 +12,9 @@ const PORTFOLIO = {
   profilePhoto: "assets/IMG_0735.jpeg", // Replace with your photo path
   aboutText: `I'm a Second-year Engineering student at the University of Toronto, passionate about design and process improvement. 
   I am currently in Melbourne for a manufacturing engineering internship at SH Engineering,
-  while also undergoing a remote engineering internship at Space Copy. I'm based in Kitchener/Toronto Ontario and always open to discussing future opportunities.`,
+  while also undergoing a remote engineering internship at Space Copy. I'm based in Kitchener/Toronto, Ontario and always open to discussing future opportunities.
+  <br>
+  Besides work I love playing volleyball, snowboarding, the gym, and travelling!`,
 
   // --- Social Links (leave blank "" to hide) ---
   social: {
