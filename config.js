@@ -77,8 +77,20 @@ const PORTFOLIO = {
 
   // --- Project Items ---
   projects: [
-    {
+     {
       id: "proj1",
+      title: "4 Cylinder Engine Assembly",
+      category: "Personal Project",
+      photo: "assets/4Cyl.png",
+      summary: "A functional 4 piston engine model, modelled in SolidWorks and simulated in Ansys to detrermine failure condition.",
+      details: `I modelled a 4 piston engine assembly, using geometry and tolerances specified in a 2D technical drawing. I used CAD to model 4 separate parts for this assembly,
+      maintaining consistency with specified dimensions and leveraging mates to maintain kinematic accuracy. To further my simulation knowledge, I performed FEA in Ansys on the crankshaft and connecting rod,
+       determining potential failure conditions under high stress.`,
+      link: "",
+      tags: ["SolidWorks", "Ansys", "GD&T"],
+    },
+    {
+      id: "proj2",
       title: "TriggerPredict",
       category: "Course Project",
       photo: "assets/TriggerPred.png",
@@ -93,7 +105,7 @@ const PORTFOLIO = {
       tags: ["Python", "HTML", "Project Management", "Locally Run Website"],
     },
     {
-      id: "proj2",
+      id: "proj3",
       title: " UofT HPVDT",
       category: "Extracurricular Involvement",
       photo: "assets/HPVDT.jpg",
@@ -104,7 +116,7 @@ const PORTFOLIO = {
       tags: ["Fabrication", "Composite Materials", "Solidworks"],
     },
     {
-      id: "proj3",
+      id: "proj4",
       title: "High Park Accessibility Project",
       category: "Course Project",
       photo: "assets/HighPark.jpg",
@@ -116,7 +128,7 @@ const PORTFOLIO = {
       tags: ["Fusion360", "Engineering Design", "Sustainability", "Universal Design"],
     },
     {
-      id: "proj4",
+      id: "proj5",
       title: "FIRST Robotics - Reefscape",
       category: "Extracurricular Involvement",
       photo: "assets/FRC.png",
