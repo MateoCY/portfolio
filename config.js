@@ -108,7 +108,7 @@ const PORTFOLIO = {
       id: "proj3",
       title: "4 Cylinder Engine Assembly",
       category: "Personal Project",
-      photo: "assets/4_Cyl.png",
+      photo: "assets/4Cyl.png",
       summary: "A functional 4 piston engine model, modelled in SolidWorks and simulated in Ansys to detrermine failure condition.",
       details: `I modelled a 4 piston engine assembly, using geometry and tolerances specified in a 2D technical drawing. I used CAD to model 4 separate parts for this assembly,
       maintaining consistency with specified dimensions and leveraging mates to maintain kinematic accuracy. To further my simulation knowledge, I performed FEA in Ansys on the crankshaft and connecting rod,
