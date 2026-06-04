@@ -79,9 +79,36 @@ const PORTFOLIO = {
   projects: [
      {
       id: "proj1",
+      title: "Volleyball Setting Machine",
+      category: "Current Personal Project",
+      photo: "assets/VB_Launch.png",
+      summary: "A turret style volleyball luancher I am currently in the process of designing.",
+      details: `I am currently in the process of developing an original conceptual design for a volleyball setting machine. Throughout my 5 years of playing club volleyball, I always loved training at home, and found the most success through daily repetition.
+      One of the most important skills for me was hitting/spiking, which also happens to be the hardest to train individually. You can toss balls to yourself, but nothing beats a real set. 
+      <br><br>
+      My solution to this is to make a machine that can shoot a volleyball in the air to practice at your own pace. Since this would mainly be used outside on grass or sand, I wanted to keep elextrical components to a minimum, including only a motor and necessary wiring/controls.
+      My current solution to adding a delay between placing a ball and launching is to use a funnel with a helical rolling path to feed into the turret. The CAD design is nearly fully complete, equipped with a slider adjustment for different types of sets and
+      a wheel to launch the ball. Next steps include 3D printing a scaled-down proof of concept, iterating on the design and choosing materials after structural analysis and deciding weight requirements.`,
+      link: "",
+      tags: ["Fusion360", "Ansys", "Prototype"],
+    },
+    {
+      id: "proj2",
+      title: "Small Business Growth Strategy Plan",
+      category: "Riipen Labs Project",
+      photo: "assets/Riipen.png",
+      summary: "A growth strategy plan for a small business in Ontario, completed through the Riipen Labs program.",
+      details: `As a participant in the Riipen Labs program, I collaborated with a group of 4 other students to create a growth strategy plan for 2nd Nature Safety, a small business in Ottawa, Ontario.
+      Over a month along my studies, I researched relevant factors and technical considerations for growing the business. Me and my team complied our findings and reccommendation in a 15 slide presentation, providing 
+      the client with a detailed plan to grow their customer base by 10x. This project helped me gain exposure to how small businesses operate and a cross-disciplinary approach to growing a business.`,
+      link: "",
+      tags: ["Research", "Qualitative Analysis", "Consulting"],
+    },
+    {
+      id: "proj3",
       title: "4 Cylinder Engine Assembly",
       category: "Personal Project",
-      photo: "assets/4Cyl.png",
+      photo: "assets/4_Cyl.png",
       summary: "A functional 4 piston engine model, modelled in SolidWorks and simulated in Ansys to detrermine failure condition.",
       details: `I modelled a 4 piston engine assembly, using geometry and tolerances specified in a 2D technical drawing. I used CAD to model 4 separate parts for this assembly,
       maintaining consistency with specified dimensions and leveraging mates to maintain kinematic accuracy. To further my simulation knowledge, I performed FEA in Ansys on the crankshaft and connecting rod,
@@ -90,7 +117,7 @@ const PORTFOLIO = {
       tags: ["SolidWorks", "Ansys", "GD&T"],
     },
     {
-      id: "proj2",
+      id: "proj4",
       title: "TriggerPredict",
       category: "Course Project",
       photo: "assets/TriggerPred.png",
@@ -105,7 +132,7 @@ const PORTFOLIO = {
       tags: ["Python", "HTML", "Project Management", "Locally Run Website"],
     },
     {
-      id: "proj3",
+      id: "proj5",
       title: " UofT HPVDT",
       category: "Extracurricular Involvement",
       photo: "assets/HPVDT.jpg",
@@ -116,7 +143,7 @@ const PORTFOLIO = {
       tags: ["Fabrication", "Composite Materials", "Solidworks"],
     },
     {
-      id: "proj4",
+      id: "proj6",
       title: "High Park Accessibility Project",
       category: "Course Project",
       photo: "assets/HighPark.jpg",
@@ -128,7 +155,7 @@ const PORTFOLIO = {
       tags: ["Fusion360", "Engineering Design", "Sustainability", "Universal Design"],
     },
     {
-      id: "proj5",
+      id: "proj7",
       title: "FIRST Robotics - Reefscape",
       category: "Extracurricular Involvement",
       photo: "assets/FRC.png",
