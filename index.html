@@ -421,7 +421,7 @@
 
   // Build project cards (show first 4)
   const projGrid = document.getElementById('proj-cards');
-  PORTFOLIO.projects.slice(0, 4).forEach(item => {
+  PORTFOLIO.projects.slice(0, 6).forEach(item => {
     projGrid.insertAdjacentHTML('beforeend', `
       <a class="card reveal" href="pages/proj-detail.html?id=${item.id}">
         <div class="card-img">
