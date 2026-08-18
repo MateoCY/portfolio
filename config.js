@@ -10,9 +10,10 @@ const PORTFOLIO = {
   title: "Mechanical Engineering - UofT",
   tagline: "Leaving things a bit better than I found them",
   profilePhoto: "assets/IMG_0735.jpeg", // Replace with your photo path
-  aboutText: `I'm a Second-year Engineering student at the University of Toronto, passionate about design and process improvement. 
-  I am currently in Melbourne for a manufacturing engineering internship at SH Engineering,
-  while also undergoing a remote engineering internship at Space Copy. I'm based in Kitchener/Toronto, Ontario and always open to discussing future opportunities.
+  aboutText: `I'm a Second-year Engineering student at the University of Toronto, passionate about mechanical design, simulation and process improvement. 
+  I recently returned from a hands on manufacturing internship in Melbourne Australia, one of the best industry learning experiences I've had so far. Currently I am in a leadership
+  role at a STEM based summer camp while helping build Space Copy through a remote mechanical engineering internship. 
+  I'm based in Kitchener/Toronto, Ontario and always open to discussing future opportunities.
   <br><br>
   Besides work I love playing volleyball, going snowboarding, the gym, and travelling!`,
 
@@ -36,7 +37,7 @@ const PORTFOLIO = {
       period: "May 2026 – July 2026",
       location: "Melbourne, AU",
       photo: "assets/Precast_img.png",
-      summary: "Helping improve the precast manufacturing process for two major Australian tunneling projects.",
+      summary: "Helped improve the precast manufacturing process for two major Australian tunneling projects.",
       details: `At SH Engineering I joined a team of Civil and Mechanical engineers producing the tunnel lining for two Australian tunnels. 
         These infrastructure improvements were for tier 1 construction companies such as Acciona, CPB Contractors, and Ghella. 
         I took on a variety of responsibilities including CAD modelling, process improvement, data analysis and quality inspections. 
@@ -52,15 +53,16 @@ const PORTFOLIO = {
     {
       id: "exp1",
       company: "Space Copy",
-      role: "Engineer Intern",
+      role: "Mechanical Engineer Intern",
       period: "June 2026 – September 2026",
       location: "Remote",
       photo: "assets/Space_Copy.png",
-      summary: "Working to minimize risk in additive manufacturing systems designed for extreme environments, including space.",
-      details: `Space Copy is a startup working with NASA to bring infrastructure in the hardest places to reach.
+      summary: "Space Copy is a lunar additive manufacturing startup that leverages ISRU to bring infrastructure in the hardest places to reach through a phase 2 NASA contract.",
+      details: `Contributed to the growth of Space Copy through designing various build plate subsystems in SolidWorks, materials research for optimal adhesion of lunar regolith, 
+      and rendering the 3D printer model using Blender..
         <br><br>
         More info to be added.`,
-      tags: ["CAD", "Ansys"],
+      tags: ["SolidWorks", "Blender", "Ansys", "Research", "Technical Writing"],
     },
     {
       id: "exp3",
