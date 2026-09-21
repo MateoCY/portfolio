@@ -79,8 +79,20 @@ const PORTFOLIO = {
 
   // --- Project Items ---
   projects: [
-     {
+    {
       id: "proj1",
+      title: "Pneumatic Engine",
+      category: "Supplementary Course Project",
+      photo: "assets/Engine.png",
+      summary: "A fully functional penumatic engine machined for the George Brown Introduction to Machining course.",
+      details: `To further my technical skills and further understand the importance of DFM, I took part in the introductory machining course at George Brown Polytechnic.
+      For 2 weekends, I learned how to use a mill, lathe, hand tools, and precision measurement tools in the machine shop. I machined and assembled the cylinder, piston, flywheel, and base 
+      of the engine, passing the course and creating a fully functional, air powered engine.`,
+      link: "",
+      tags: ["Machining", "Engineering Applications", "Workshop"],
+    },
+     {
+      id: "proj2",
       title: "Volleyball Setting Machine",
       category: "Current Personal Project",
       photo: "assets/VB_Launch.png",
@@ -95,7 +107,7 @@ const PORTFOLIO = {
       tags: ["Fusion360", "Ansys", "Prototype"],
     },
     {
-      id: "proj2",
+      id: "proj3",
       title: "Small Business Growth Strategy Plan",
       category: "Riipen Labs Project",
       photo: "assets/Riipen.png",
@@ -107,7 +119,7 @@ const PORTFOLIO = {
       tags: ["Research", "Qualitative Analysis", "Consulting"],
     },
     {
-      id: "proj3",
+      id: "proj4",
       title: "4 Cylinder Engine Assembly",
       category: "Personal Project",
       photo: "assets/4Cyl.png",
@@ -119,7 +131,7 @@ const PORTFOLIO = {
       tags: ["SolidWorks", "Ansys", "GD&T"],
     },
     {
-      id: "proj4",
+      id: "proj5",
       title: "TriggerPredict",
       category: "Course Project",
       photo: "assets/TriggerPred.png",
@@ -134,7 +146,7 @@ const PORTFOLIO = {
       tags: ["Python", "HTML", "Project Management", "Locally Run Website"],
     },
     {
-      id: "proj5",
+      id: "proj6",
       title: " UofT HPVDT",
       category: "Extracurricular Involvement",
       photo: "assets/HPVDT.jpg",
@@ -145,7 +157,7 @@ const PORTFOLIO = {
       tags: ["Fabrication", "Composite Materials", "Solidworks"],
     },
     {
-      id: "proj6",
+      id: "proj7",
       title: "High Park Accessibility Project",
       category: "Course Project",
       photo: "assets/HighPark.jpg",
@@ -157,7 +169,7 @@ const PORTFOLIO = {
       tags: ["Fusion360", "Engineering Design", "Sustainability", "Universal Design"],
     },
     {
-      id: "proj7",
+      id: "proj8",
       title: "FIRST Robotics - Reefscape",
       category: "Extracurricular Involvement",
       photo: "assets/FRC.png",
