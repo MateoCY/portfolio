@@ -83,7 +83,7 @@ const PORTFOLIO = {
       id: "proj1",
       title: "Pneumatic Engine",
       category: "Supplementary Course Project",
-      photo: "assets/Engine.png",
+      photo: "assets/Engine.jpeg",
       summary: "A fully functional penumatic engine machined for the George Brown Introduction to Machining course.",
       details: `To further my technical skills and further understand the importance of DFM, I took part in the introductory machining course at George Brown Polytechnic.
       For 2 weekends, I learned how to use a mill, lathe, hand tools, and precision measurement tools in the machine shop. I machined and assembled the cylinder, piston, flywheel, and base 
