@@ -80,6 +80,17 @@ const PORTFOLIO = {
   // --- Project Items ---
   projects: [
     {
+      id: "proj0",
+      title: "Jigsaw Mechanism Assembly",
+      category: "Course Project",
+      photo: "assets/Jigsaw.png",
+      summary: "A scotch-yoke mechanism used in jigsaws modelled in SolidWorks.",
+      details: `For my second dissection project as a part of MIE243 - Mechanical Engineering Design course, I modelled the scotch-yoke mechanism from a jigsaw in SolidWorks.
+      As a part of a team of 4 I took precise measurements of components using calipers and created the assembly, leveraging mates to create maintain kinematic accuracy.`,
+      link: "",
+      tags: ["Solidworks", "Calipers", "Assembly"],
+    },
+    {
       id: "proj1",
       title: "Pneumatic Engine",
       category: "Supplementary Course Project",
@@ -123,7 +134,7 @@ const PORTFOLIO = {
       title: "4 Cylinder Engine Assembly",
       category: "Personal Project",
       photo: "assets/4Cyl.png",
-      summary: "A functional 4 piston engine model, modelled in SolidWorks and simulated in Ansys to detrermine failure condition.",
+      summary: "A functional 4 piston engine model, modelled in SolidWorks and simulated in Ansys to determine failure condition.",
       details: `I modelled a 4 piston engine assembly, using geometry and tolerances specified in a 2D technical drawing. I used CAD to model 4 separate parts for this assembly,
       maintaining consistency with specified dimensions and leveraging mates to maintain kinematic accuracy. To further my simulation knowledge, I performed FEA in Ansys on the crankshaft and connecting rod,
        determining potential failure conditions under high stress.`,
